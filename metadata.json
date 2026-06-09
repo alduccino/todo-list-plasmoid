@@ -1,0 +1,21 @@
+{
+    "KPlugin": {
+        "Authors": [
+            {
+                "Name": "qinvvv & ff"
+            }
+        ],
+        "Name": "Todo List",
+        "Id": "mike.todolist.plasmoid",
+        "Description": "Todo List plasmoid with customizable colors and transparency",
+        "Category": "Utilities",
+        "Icon": "checkbox",
+        "EnabledByDefault": true,
+        "License": "GPL-3.0+",
+        "Version": "2",
+        "Website": "https://github.com/fightingff/qtodo/tree/customized"
+    },
+    "KPackageStructure": "Plasma/Applet",
+    "X-Plasma-API-Minimum-Version": "6.0",
+    "X-Plasma-MainScript": "ui/main.qml"
+}
