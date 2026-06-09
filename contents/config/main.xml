@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kcfg xmlns="http://www.kde.org/standards/kcfg/1.0"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.kde.org/standards/kcfg/1.0
+                          http://www.kde.org/standards/kcfg/1.0/kcfg.xsd">
+    <kcfgfile name=""/>
+
+    <group name="Appearance">
+        <entry name="useSystemTheme" type="Bool">
+            <default>true</default>
+        </entry>
+
+        <entry name="itemBgColor" type="String">
+            <default>#1d1f22</default>
+        </entry>
+        <entry name="itemBgOpacity" type="Double">
+            <default>0.69</default>
+        </entry>
+        <entry name="itemBlurRadius" type="Double">
+            <default>0</default>
+        </entry>
+
+        <entry name="typeBgColor" type="String">
+            <default>#ffff00</default>
+        </entry>
+        <entry name="typeBgOpacity" type="Double">
+            <default>0.7</default>
+        </entry>
+        <entry name="typeBlurRadius" type="Double">
+            <default>0</default>
+        </entry>
+
+        <entry name="inputBgColor" type="String">
+            <default>#1d1f22</default>
+        </entry>
+        <entry name="inputBgOpacity" type="Double">
+            <default>0.50</default>
+        </entry>
+
+        <entry name="editBgColor" type="String">
+            <default>#008000</default>
+        </entry>
+        <entry name="editBgOpacity" type="Double">
+            <default>0.3</default>
+        </entry>
+    </group>
+</kcfg>
